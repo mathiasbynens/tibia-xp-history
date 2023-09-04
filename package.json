@@ -1,0 +1,13 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "npm run fetch && npm run analyze",
+		"fetch": "node --no-warnings get-xp-data.mjs",
+		"analyze": "node analyze.mjs"
+	},
+	"devDependencies": {
+		"html-minifier-terser": "^7.2.0",
+		"lodash-es": "^4.17.21",
+		"prettier": "^3.0.3"
+	}
+}

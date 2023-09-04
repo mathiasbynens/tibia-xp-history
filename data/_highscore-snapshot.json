@@ -1,0 +1,418 @@
+{
+	"highscores": {
+		"world": "Vunira",
+		"category": "experience",
+		"vocation": "paladins",
+		"highscore_age": 26,
+		"highscore_list": [
+			{
+				"rank": 1,
+				"name": "Top Maximum",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1564,
+				"value": 63548888523
+			},
+			{
+				"rank": 2,
+				"name": "Svampis Bob",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1530,
+				"value": 59526142460
+			},
+			{
+				"rank": 3,
+				"name": "Partyboost",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1475,
+				"value": 53305566197
+			},
+			{
+				"rank": 4,
+				"name": "Saint Tristen",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1359,
+				"value": 41679698222
+			},
+			{
+				"rank": 5,
+				"name": "Sinsor",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1325,
+				"value": 38651708541
+			},
+			{
+				"rank": 6,
+				"name": "Herox",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1280,
+				"value": 34789067837
+			},
+			{
+				"rank": 7,
+				"name": "Sabziro",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1277,
+				"value": 34550439832
+			},
+			{
+				"rank": 8,
+				"name": "Linkirvana",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1259,
+				"value": 33167737556
+			},
+			{
+				"rank": 9,
+				"name": "Bladei",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1200,
+				"value": 28701469483
+			},
+			{
+				"rank": 10,
+				"name": "Pastor Koylu",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1170,
+				"value": 26608193435
+			},
+			{
+				"rank": 11,
+				"name": "Alex Froggy",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1161,
+				"value": 25975159748
+			},
+			{
+				"rank": 12,
+				"name": "Vitt Orz",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1132,
+				"value": 24080961630
+			},
+			{
+				"rank": 13,
+				"name": "Paladino Do luz",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1128,
+				"value": 23853394381
+			},
+			{
+				"rank": 14,
+				"name": "Pabayaga Messi",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1125,
+				"value": 23615317031
+			},
+			{
+				"rank": 15,
+				"name": "Anardiel",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1115,
+				"value": 22994542320
+			},
+			{
+				"rank": 16,
+				"name": "Reo Light",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1112,
+				"value": 22852238940
+			},
+			{
+				"rank": 17,
+				"name": "Lanchadanan",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1112,
+				"value": 22808702322
+			},
+			{
+				"rank": 18,
+				"name": "Roffa The King",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1079,
+				"value": 20876045472
+			},
+			{
+				"rank": 19,
+				"name": "Claq",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1072,
+				"value": 20428152788
+			},
+			{
+				"rank": 20,
+				"name": "Zakutinho",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1047,
+				"value": 19020306781
+			},
+			{
+				"rank": 21,
+				"name": "Gide ba",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1042,
+				"value": 18756852124
+			},
+			{
+				"rank": 22,
+				"name": "Demzy The Destroyer",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1039,
+				"value": 18632827968
+			},
+			{
+				"rank": 23,
+				"name": "Limited Renan",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1038,
+				"value": 18570598495
+			},
+			{
+				"rank": 24,
+				"name": "Charlovinha Kolecho",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1016,
+				"value": 17390582789
+			},
+			{
+				"rank": 25,
+				"name": "Ladyy Aias",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1000,
+				"value": 16587475834
+			},
+			{
+				"rank": 26,
+				"name": "Namikaze Kimimaro",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1000,
+				"value": 16569380142
+			},
+			{
+				"rank": 27,
+				"name": "Nozyk",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 989,
+				"value": 16059348983
+			},
+			{
+				"rank": 28,
+				"name": "Ty Ranooz",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 986,
+				"value": 15927614755
+			},
+			{
+				"rank": 29,
+				"name": "Venus",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 966,
+				"value": 14956471333
+			},
+			{
+				"rank": 30,
+				"name": "Arunass",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 956,
+				"value": 14484664655
+			},
+			{
+				"rank": 31,
+				"name": "Mancik",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 935,
+				"value": 13570108853
+			},
+			{
+				"rank": 32,
+				"name": "Paladin Coqueto",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 930,
+				"value": 13361461806
+			},
+			{
+				"rank": 33,
+				"name": "Sir judasjr",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 927,
+				"value": 13218195516
+			},
+			{
+				"rank": 34,
+				"name": "Draakz",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 920,
+				"value": 12922874554
+			},
+			{
+				"rank": 35,
+				"name": "Alriken",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 915,
+				"value": 12703719102
+			},
+			{
+				"rank": 36,
+				"name": "Kimpsuu",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 909,
+				"value": 12454437110
+			},
+			{
+				"rank": 37,
+				"name": "Fifiq",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 908,
+				"value": 12431318182
+			},
+			{
+				"rank": 38,
+				"name": "Zagnus Ened",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 908,
+				"value": 12426604146
+			},
+			{
+				"rank": 39,
+				"name": "Rixaari",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 907,
+				"value": 12385630934
+			},
+			{
+				"rank": 40,
+				"name": "Gala Tuga",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 905,
+				"value": 12295619430
+			},
+			{
+				"rank": 41,
+				"name": "Overlord Assassin",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 904,
+				"value": 12266269095
+			},
+			{
+				"rank": 42,
+				"name": "Ci zin",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 902,
+				"value": 12153061349
+			},
+			{
+				"rank": 43,
+				"name": "Dzika Poziomka",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 900,
+				"value": 12093072332
+			},
+			{
+				"rank": 44,
+				"name": "Unlegitrod",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 897,
+				"value": 11951512264
+			},
+			{
+				"rank": 45,
+				"name": "Lukito Andrade",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 895,
+				"value": 11888581553
+			},
+			{
+				"rank": 46,
+				"name": "Pan Szympans",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 888,
+				"value": 11598376916
+			},
+			{
+				"rank": 47,
+				"name": "Asto Beles",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 885,
+				"value": 11474554850
+			},
+			{
+				"rank": 48,
+				"name": "Ludathug The Adorable",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 875,
+				"value": 11107857819
+			},
+			{
+				"rank": 49,
+				"name": "Florian Kapec Wielki",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 866,
+				"value": 10781265865
+			},
+			{
+				"rank": 50,
+				"name": "Bipoon",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 863,
+				"value": 10655820365
+			}
+		],
+		"highscore_page": {
+			"current_page": 1,
+			"total_pages": 20,
+			"total_records": 1000
+		}
+	},
+	"information": {
+		"api_version": 3
+	}
+}
