@@ -30,6 +30,6 @@ jobs:
           git config user.name 'Tibia experience history bot'
           git config user.email 'xp-history@tibiamaps.io'
           date=$(date +'%Y-%m-%d')
-          git add data
-          git commit data -m "Add experience data for date=${date}" || true
+          git add data README.md
+          git commit data README.md -m "Add experience data for date=${date}" || true
           git push
