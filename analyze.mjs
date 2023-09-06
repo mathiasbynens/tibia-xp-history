@@ -81,6 +81,6 @@ export const HISTORY_EMBELLISHED = embellish(HISTORY);
 
 // const HISTORY_LAST_30_DAYS = new Map([...HISTORY].slice(-30));
 
-await updateReadmeTable(HISTORY_EMBELLISHED);
+//await updateReadmeTable(HISTORY_EMBELLISHED);
 
 await updateHtml(HISTORY_EMBELLISHED);
