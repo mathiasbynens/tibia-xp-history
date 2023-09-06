@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Tibia experience history</title>
+<meta content="width=device-width" name="viewport">
+<style>
+	:root {
+		color-scheme: dark light;
+		--darkblue: #0A50C2;
+		--yellow: #FAD956;
+
+		/* Light mode colors. */
+		--html-color: #000;
+		--main-background: #FFF;
+		--table-border: #D6D6D6;
+		--alt-table-row-background: #EEE;
+		--link-color: var(--darkblue);
+		--link-color-alt: var(--html-color);
+		--link-hover-background: #CFE0FC;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		:root {
+			/* Dark mode colors. */
+			--html-color: #FEFEFE;
+			--main-background: #232323;
+			--table-border: #A6A6A6;
+			--alt-table-row-background: #111;
+			--link-color: var(--yellow);
+			--link-color-alt: var(--main-background);
+			--link-hover-background: var(--yellow);
+		}
+	}
+
+	html {
+		font: 1rem/1.6 sans-serif;
+		color: var(--html-color);
+		background: var(--main-background);
+	}
+
+	.table-wrapper {
+		overflow-x: auto;
+	}
+	table {
+		border-collapse: collapse;
+		width: 100%;
+		max-width: 55rem;
+		margin-bottom: 1em;
+		font-variant-numeric: tabular-nums;
+	}
+	thead th, tfoot th, tfoot td {
+		background: var(--darkblue);
+		color: #FFF;
+		font-weight: bold;
+	}
+	th, td {
+		border: 1px solid var(--table-border);
+		padding: .5em 1em;
+	}
+	tbody tr:nth-child(odd) {
+		background-color: var(--alt-table-row-background);
+	}
+	td {
+		text-align: right;
+	}
+	td[colspan] {
+		text-align: center;
+	}
+	td a {
+		display: flex;
+		align-items: center;
+		padding: .5em 1em;
+		font-weight: bold;
+		color: var(--link-color);
+	}
+	td a:hover, td a:focus {
+		color: var(--link-color-alt);
+		background-color: var(--link-hover-background);
+	}
+	tr:hover s {
+		text-decoration: none;
+	}
+	img {
+		margin-right: 1rem;
+		background: #fff4;
+		image-rendering: pixelated;
+	}
+	span {
+		font-weight: bold;
+	}
+	tbody .good {
+		color: #116329;
+		background: #DAFBE1;
+	}
+	tbody .bad {
+		color: #82071E;
+		background: #FFEBE9;
+	}
+	small {
+		font-size: 0.7rem;
+	}
+</style>
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<h1>Tibia experience history</h1>
+%%%DATA%%%
