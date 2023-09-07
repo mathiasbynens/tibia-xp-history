@@ -29,10 +29,11 @@ const renderHtml = (embellished) => {
 	];
 	const table = ['<div class="table-wrapper"><table><thead><tr><th>Date<th colspan=2>Level<th colspan=2>Experience<th colspan=2>Rank<tbody>'];
 	for (const entry of embellished.history) {
-		table.push(`<tr><th scope=row>${escapeHtml(entry.date)}<td>${escapeHtml(formatInt(entry.level))}<small>.${escapeHtml(String(entry.progressWithinLevel).padStart(2, '0'))}</small><td>${formatDelta(entry.levelDelta)}<td>${escapeHtml(formatInt(entry.experience))}<td>${formatDelta(entry.experienceDelta)}<td>${escapeHtml(entry.rank)}<td>${formatDelta(entry.rankDelta, {invert: true})}`);
+		const progressWithinLevel = String(entry.progressWithinLevel).padStart(2, '0');
+		table.push(`<tr><th scope=row>${escapeHtml(entry.date)}<td>${escapeHtml(formatInt(entry.level))}<small>.${escapeHtml(progressWithinLevel)}</small> <progress max="100" value="${progressWithinLevel}"></progress><td>${formatDelta(entry.levelDelta)}<td>${escapeHtml(formatInt(entry.experience))}<td>${formatDelta(entry.experienceDelta)}<td>${escapeHtml(entry.rank)}<td>${formatDelta(entry.rankDelta, {invert: true})}`);
 	}
 	const {days, levelDelta, experienceDelta, rankDelta} = embellished.meta;
-	table.push(`<tfoot><tr><th scope=row>${escapeHtml(formatInt(days))} days<td colspan=2 title="${escapeHtml((levelDelta / days).toFixed(2))} levels per day">${formatDelta(levelDelta)}<td colspan=2 title="${escapeHtml(formatInt(experienceDelta / days))} experience per day">${formatDelta(experienceDelta)}<td colspan=2>${formatDelta(rankDelta, {invert: true})}`);
+	table.push(`<tfoot><tr><th scope=row>${escapeHtml(formatInt(days))} days<td colspan=2 title="${escapeHtml((levelDelta / days).toFixed(2))} levels per day">${formatDelta(levelDelta)} levels<td colspan=2 title="${escapeHtml(formatInt(experienceDelta / days))} experience per day">${formatDelta(experienceDelta)} experience<td colspan=2>${formatDelta(rankDelta, {invert: true})} ranks`);
 	table.push('</table></div>');
 	output.push(table.join(''));
 	const html = output.join('');
@@ -46,7 +47,7 @@ export const updateHtml = async (embellished) => {
 	const minifiedHtml = await minifyHtml(html, {
 		collapseBooleanAttributes: true,
 		collapseInlineTagWhitespace: false,
-		collapseWhitespace: true,
+		collapseWhitespace: false,
 		conservativeCollapse: false,
 		decodeEntities: true,
 		html5: true,
