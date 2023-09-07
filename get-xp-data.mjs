@@ -90,7 +90,9 @@ const getDateIds = () => {
 	const {today} = getDateIds();
 	const HISTORY_FILE_PATH = './data/xp-history.json';
 	const xpHistory = JSON.parse(await fs.readFile(HISTORY_FILE_PATH, 'utf8'));
-	if (!Object.hasOwn(xpHistory, today)) {
+	if (Object.hasOwn(xpHistory, today)) {
+		throw new Error(`Data already contains an entry for ${today}.`);
+	} else {
 		xpHistory[today] = todaysData;
 	}
 	await fs.writeFile(
