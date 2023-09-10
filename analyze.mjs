@@ -19,8 +19,12 @@ const computeProgressWithinLevel = (level, experience) => {
 	const minExpForNextLevel = expForLevel(level + 1);
 	const delta = minExpForNextLevel - minExpForThisLevel;
 	const extra = experience - minExpForThisLevel;
+	const xpNeeded = minExpForNextLevel - experience;
 	const progress = Math.floor(extra / delta * 100);
-	return progress;
+	return {
+		progress,
+		xpNeeded,
+	};
 };
 
 const embellish = (history) => {
@@ -40,6 +44,7 @@ const embellish = (history) => {
 			delta.level = entry.level - prev.level;
 			delta.experience = entry.experience - prev.experience;
 		}
+		const {progress, xpNeeded} = computeProgressWithinLevel(entry.level, entry.experience);
 		embellished.push({
 			date: date,
 			rank: entry.rank,
@@ -48,7 +53,8 @@ const embellish = (history) => {
 			experienceDelta: isFirst ? null : delta.experience,
 			level: entry.level,
 			levelDelta: isFirst ? null : delta.level,
-			progressWithinLevel: computeProgressWithinLevel(entry.level, entry.experience),
+			progressWithinLevel: progress,
+			xpNeeded: xpNeeded,
 		});
 		isFirst = false;
 		prev.rank = entry.rank;

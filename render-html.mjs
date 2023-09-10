@@ -29,8 +29,7 @@ const renderHtml = (embellished) => {
 	];
 	const table = ['<div class="table-wrapper"><table><thead><tr><th>Date<th colspan=2>Level<th colspan=2>Experience<th colspan=2>Rank<tbody>'];
 	for (const entry of embellished.history) {
-		const progressWithinLevel = String(entry.progressWithinLevel).padStart(2, '0');
-		table.push(`<tr><th scope=row>${escapeHtml(entry.date)}<td>${escapeHtml(formatInt(entry.level))}<small>.${escapeHtml(progressWithinLevel)}</small> <progress max="100" value="${progressWithinLevel}"></progress><td>${formatDelta(entry.levelDelta)}<td>${escapeHtml(formatInt(entry.experience))}<td>${formatDelta(entry.experienceDelta)}<td>${escapeHtml(entry.rank)}<td>${formatDelta(entry.rankDelta, {invert: true})}`);
+		table.push(`<tr><th scope=row>${escapeHtml(entry.date)}<td title="${escapeHtml(formatInt(entry.xpNeeded))} xp (${100 - entry.progressWithinLevel}%) until the next level">${escapeHtml(formatInt(entry.level))}<small>.${escapeHtml(String(entry.progressWithinLevel).padStart(2, '0'))}</small> <progress max="100" value="${entry.progressWithinLevel}"></progress><td>${formatDelta(entry.levelDelta)}<td>${escapeHtml(formatInt(entry.experience))}<td>${formatDelta(entry.experienceDelta)}<td>${escapeHtml(entry.rank)}<td>${formatDelta(entry.rankDelta, {invert: true})}`);
 	}
 	const {days, levelDelta, experienceDelta, rankDelta} = embellished.meta;
 	table.push(`<tfoot><tr><th scope=row>${escapeHtml(formatInt(days))} days<td colspan=2 title="${escapeHtml((levelDelta / days).toFixed(2))} levels per day">${formatDelta(levelDelta)} levels<td colspan=2 title="${escapeHtml(formatInt(experienceDelta / days))} experience per day">${formatDelta(experienceDelta)} experience<td colspan=2>${formatDelta(rankDelta, {invert: true})} ranks`);
