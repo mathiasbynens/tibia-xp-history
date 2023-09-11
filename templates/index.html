@@ -61,30 +61,15 @@
 	tbody tr:nth-child(odd) {
 		background-color: var(--alt-table-row-background);
 	}
+	tbody tr:hover {
+    background-color: var(--link-hover-background);
+    color: var(--link-color-alt);
+	}
 	td {
 		text-align: right;
 	}
 	td[colspan] {
 		text-align: center;
-	}
-	td a {
-		display: flex;
-		align-items: center;
-		padding: .5em 1em;
-		font-weight: bold;
-		color: var(--link-color);
-	}
-	td a:hover, td a:focus {
-		color: var(--link-color-alt);
-		background-color: var(--link-hover-background);
-	}
-	tr:hover s {
-		text-decoration: none;
-	}
-	img {
-		margin-right: 1rem;
-		background: #fff4;
-		image-rendering: pixelated;
 	}
 	span {
 		font-weight: bold;
