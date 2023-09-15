@@ -9,21 +9,34 @@ const readJsonFile = async (fileName) => {
 	return data;
 };
 
-const expForLevel = (level) => {
+const computeExperienceForLevel = (level) => {
 	// https://tibia.fandom.com/wiki/Experience_Formula
 	return 50 / 3 * (level ** 3 - 6 * level ** 2 + 17 * level - 12);
 };
 
+const computeLevelForExperience = (experience) => {
+	// https://www.wolframalpha.com/input?i=solve+X+%3D+50+%2F+3+*+%28L+**+3+-+6+*+L+**+2+%2B+17+*+L+-+12%29+for+L
+	return (
+		Math.cbrt(Math.sqrt(3) * Math.sqrt(243 * experience ** 2 - 48_600 * experience + 3_680_000) + 27 * experience - 2_700) /
+		30 ** (2 / 3) - (5 * 10 ** (2 / 3)) / Math.cbrt(3 * Math.sqrt(3) * Math.sqrt(243 * experience ** 2 - 48_600 * experience + 3_680_000) + 81 * experience - 8_100) + 2
+	);
+};
+
+const computeExperienceUntilNextLevel = (level, experience) => {
+	return 50 / 3 * level * ((level - 3) * level + 8) - experience;
+};
+
 const computeProgressWithinLevel = (level, experience) => {
-	const minExpForThisLevel = expForLevel(level);
-	const minExpForNextLevel = expForLevel(level + 1);
-	const delta = minExpForNextLevel - minExpForThisLevel;
-	const extra = experience - minExpForThisLevel;
-	const xpNeeded = minExpForNextLevel - experience;
-	const progress = Math.floor(extra / delta * 100);
+	return (
+		(level * ((600 - 100 * level) * level - 1700) + 6 * experience + 1200) /
+		(level * (3 * level - 9) + 12)
+	);
+};
+
+const statsWithinLevel = (level, experience) => {
 	return {
-		progress,
-		xpNeeded,
+		progressWithinLevel: Math.floor(computeProgressWithinLevel(level, experience)),
+		experienceUntilNextLevel: computeExperienceUntilNextLevel(level, experience),
 	};
 };
 
@@ -44,7 +57,10 @@ const embellish = (history) => {
 			delta.level = entry.level - prev.level;
 			delta.experience = entry.experience - prev.experience;
 		}
-		const {progress, xpNeeded} = computeProgressWithinLevel(entry.level, entry.experience);
+		const {
+			progressWithinLevel,
+			experienceUntilNextLevel,
+		} = statsWithinLevel(entry.level, entry.experience);
 		embellished.push({
 			date: date,
 			rank: entry.rank,
@@ -53,8 +69,8 @@ const embellish = (history) => {
 			experienceDelta: isFirst ? null : delta.experience,
 			level: entry.level,
 			levelDelta: isFirst ? null : delta.level,
-			progressWithinLevel: progress,
-			xpNeeded: xpNeeded,
+			progressWithinLevel: progressWithinLevel,
+			experienceUntilNextLevel: experienceUntilNextLevel,
 		});
 		isFirst = false;
 		prev.rank = entry.rank;
