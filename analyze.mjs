@@ -40,7 +40,20 @@ const statsWithinLevel = (level, experience) => {
 	};
 };
 
-const embellish = (history) => {
+const clamp = (number) => {
+	const granularity = 50;
+	const tmp = Math.ceil(number / granularity) * granularity;
+	if (tmp === number) {
+		return number + granularity;
+	}
+	return tmp;
+};
+
+const embellish = (history, limit = false) => {
+	if (limit) {
+		const HISTORY_LAST_N_DAYS = new Map([...history].slice(-limit));
+		history = HISTORY_LAST_N_DAYS;
+	}
 	const embellished = [];
 	const first = { rank: -1, level: -1, experience: -1 };
 	const prev = { rank: -1, level: -1, experience: -1 };
@@ -82,12 +95,19 @@ const embellish = (history) => {
 	delta.rank = last.rank - first.rank;
 	delta.level = last.level - first.level;
 	delta.experience = last.experience - first.experience;
+	const TARGET_LEVEL = clamp(last.level);
+	const TARGET_LEVEL_DELTA = TARGET_LEVEL - last.level;
+	const TARGET_EXP = computeExperienceForLevel(TARGET_LEVEL);
+	const TARGET_EXP_DELTA = TARGET_EXP - last.experience;
 	const meta = {
 		updated: lastDate,
 		days: history.size,
 		rankDelta: delta.rank,
-		experienceDelta: delta.experience,
 		levelDelta: delta.level,
+		experienceDelta: delta.experience,
+		targetLevel: TARGET_LEVEL,
+		targetLevelDelta: TARGET_LEVEL_DELTA,
+		targetLevelExperienceDelta: TARGET_EXP_DELTA,
 	};
 	const result = {
 		history: embellished,
@@ -99,9 +119,7 @@ const embellish = (history) => {
 
 
 const HISTORY = new Map(Object.entries(await readJsonFile('./data/xp-history.json')));
-export const HISTORY_EMBELLISHED = embellish(HISTORY);
-
-// const HISTORY_LAST_30_DAYS = new Map([...HISTORY].slice(-30));
+export const HISTORY_EMBELLISHED = embellish(HISTORY, Infinity);
 
 //await updateReadmeTable(HISTORY_EMBELLISHED);
 
