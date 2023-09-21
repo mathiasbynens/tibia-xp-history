@@ -36,14 +36,17 @@ const embellish = (history, limit = false) => {
 	let isFirst = true;
 	let lastDate;
 	for (const [date, entry] of history) {
+		entry.baseValue = computeBaseValue(entry.level);
 		if (isFirst) {
 			first.rank = entry.rank;
 			first.level = entry.level;
 			first.experience = entry.experience;
+			first.baseValue = entry.baseValue;
 		} else {
 			delta.rank = entry.rank - prev.rank;
 			delta.level = entry.level - prev.level;
 			delta.experience = entry.experience - prev.experience;
+			delta.baseValue = entry.baseValue - prev.baseValue;
 		}
 		const {
 			progressWithinLevel,
@@ -59,17 +62,22 @@ const embellish = (history, limit = false) => {
 			levelDelta: isFirst ? null : delta.level,
 			progressWithinLevel: progressWithinLevel,
 			experienceUntilNextLevel: experienceUntilNextLevel,
+			baseValue: entry.baseValue,
+			baseValueDelta: isFirst ? null : delta.baseValue,
 		});
 		isFirst = false;
 		prev.rank = entry.rank;
 		prev.level = entry.level;
 		prev.experience = entry.experience;
+		prev.baseValue = entry.baseValue;
 		lastDate = date;
 	}
 	const last = prev;
 	delta.rank = last.rank - first.rank;
 	delta.level = last.level - first.level;
 	delta.experience = last.experience - first.experience;
+	delta.baseValue = last.baseValue - first.baseValue;
+
 	const days = history.size;
 	const levelsPerDay = delta.level / days;
 	const experiencePerDay = delta.experience / days;
@@ -90,6 +98,8 @@ const embellish = (history, limit = false) => {
 		rankDelta: delta.rank,
 		levelDelta: delta.level,
 		levelsPerDay: levelsPerDay,
+		baseValueDelta: delta.baseValue,
+		baseValuePercentageIncrease: Math.round((last.baseValue / first.baseValue - 1) * 100),
 		experienceDelta: delta.experience,
 		experiencePerDay: experiencePerDay,
 
