@@ -2,6 +2,14 @@ import * as fs from 'node:fs/promises';
 
 import {updateReadmeTable} from './render-markdown.mjs';
 import {updateHtml} from './render-html.mjs';
+import {
+	computeBaseValue,
+	computeExperienceForLevel,
+	computeExperienceUntilNextLevel,
+	computeNextBaseBreakpointLevel,
+	computeNextMilestoneLevel,
+	computeProgressWithinLevel,
+} from './formulae.mjs';
 
 const readJsonFile = async (fileName) => {
 	const json = await fs.readFile(fileName, 'utf8');
@@ -9,44 +17,11 @@ const readJsonFile = async (fileName) => {
 	return data;
 };
 
-const computeExperienceForLevel = (level) => {
-	// https://tibia.fandom.com/wiki/Experience_Formula
-	return 50 / 3 * (level ** 3 - 6 * level ** 2 + 17 * level - 12);
-};
-
-const computeLevelForExperience = (experience) => {
-	// https://www.wolframalpha.com/input?i=solve+X+%3D+50+%2F+3+*+%28L+**+3+-+6+*+L+**+2+%2B+17+*+L+-+12%29+for+L
-	return (
-		Math.cbrt(Math.sqrt(3) * Math.sqrt(243 * experience ** 2 - 48_600 * experience + 3_680_000) + 27 * experience - 2_700) /
-		30 ** (2 / 3) - (5 * 10 ** (2 / 3)) / Math.cbrt(3 * Math.sqrt(3) * Math.sqrt(243 * experience ** 2 - 48_600 * experience + 3_680_000) + 81 * experience - 8_100) + 2
-	);
-};
-
-const computeExperienceUntilNextLevel = (level, experience) => {
-	return 50 / 3 * level * ((level - 3) * level + 8) - experience;
-};
-
-const computeProgressWithinLevel = (level, experience) => {
-	return (
-		(level * ((600 - 100 * level) * level - 1700) + 6 * experience + 1200) /
-		(level * (3 * level - 9) + 12)
-	);
-};
-
 const statsWithinLevel = (level, experience) => {
 	return {
 		progressWithinLevel: Math.floor(computeProgressWithinLevel(level, experience)),
 		experienceUntilNextLevel: computeExperienceUntilNextLevel(level, experience),
 	};
-};
-
-const clamp = (number) => {
-	const granularity = 50;
-	const tmp = Math.ceil(number / granularity) * granularity;
-	if (tmp === number) {
-		return number + granularity;
-	}
-	return tmp;
 };
 
 const embellish = (history, limit = false) => {
@@ -95,19 +70,43 @@ const embellish = (history, limit = false) => {
 	delta.rank = last.rank - first.rank;
 	delta.level = last.level - first.level;
 	delta.experience = last.experience - first.experience;
-	const TARGET_LEVEL = clamp(last.level);
-	const TARGET_LEVEL_DELTA = TARGET_LEVEL - last.level;
-	const TARGET_EXP = computeExperienceForLevel(TARGET_LEVEL);
-	const TARGET_EXP_DELTA = TARGET_EXP - last.experience;
+	const days = history.size;
+	const levelsPerDay = delta.level / days;
+	const experiencePerDay = delta.experience / days;
+
+	const nextBaseBreakpointLevel = computeNextBaseBreakpointLevel(last.level);
+	const nextBaseBreakpointLevelDelta = nextBaseBreakpointLevel - last.level;
+	const nextBaseBreakpointLevelExperience = computeExperienceForLevel(nextBaseBreakpointLevel);
+	const nextBaseBreakpointLevelExperienceDelta = nextBaseBreakpointLevelExperience - last.experience;
+
+	const nextMilestoneLevel = computeNextMilestoneLevel(last.level);
+	const nextMilestoneLevelDelta = nextMilestoneLevel - last.level;
+	const nextMilestoneLevelExperience = computeExperienceForLevel(nextMilestoneLevel);
+	const nextMilestoneLevelExperienceDelta = nextMilestoneLevelExperience - last.experience;
+
 	const meta = {
 		updated: lastDate,
-		days: history.size,
+		days: days,
 		rankDelta: delta.rank,
 		levelDelta: delta.level,
+		levelsPerDay: levelsPerDay,
 		experienceDelta: delta.experience,
-		targetLevel: TARGET_LEVEL,
-		targetLevelDelta: TARGET_LEVEL_DELTA,
-		targetLevelExperienceDelta: TARGET_EXP_DELTA,
+		experiencePerDay: experiencePerDay,
+
+		nextBaseBreakpointLevel: nextBaseBreakpointLevel,
+		nextBaseValue: computeBaseValue(nextBaseBreakpointLevel),
+		nextBaseBreakpointLevelDelta: nextBaseBreakpointLevelDelta,
+		nextBaseBreakpointLevelExperience: nextBaseBreakpointLevelExperience,
+		nextBaseBreakpointLevelExperienceDelta: nextBaseBreakpointLevelExperienceDelta,
+		daysUntilNextBaseBreakpointLevelBasedOnLevelsPerDay: nextBaseBreakpointLevelDelta / levelsPerDay,
+		daysUntilNextBaseBreakpointLevelExperienceBasedOnExperiencePerDay: nextBaseBreakpointLevelExperienceDelta / experiencePerDay,
+
+		nextMilestoneLevel: nextMilestoneLevel,
+		nextMilestoneLevelDelta: nextMilestoneLevelDelta,
+		nextMilestoneLevelExperience: nextMilestoneLevelExperience,
+		nextMilestoneLevelExperienceDelta: nextMilestoneLevelExperienceDelta,
+		daysUntilNextMilestoneLevelBasedOnLevelsPerDay: nextMilestoneLevelDelta / levelsPerDay,
+		daysUntilNextMilestoneLevelExperienceBasedOnExperiencePerDay: nextMilestoneLevelExperienceDelta / experiencePerDay,
 	};
 	const result = {
 		history: embellished,

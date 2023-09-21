@@ -31,10 +31,25 @@ const renderHtml = (embellished) => {
 	for (const entry of embellished.history) {
 		table.push(`<tr><th scope=row>${escapeHtml(entry.date)}<td title="${escapeHtml(formatInt(entry.experienceUntilNextLevel))} xp (${100 - entry.progressWithinLevel}%) until the next level">${escapeHtml(formatInt(entry.level))}<small>.${escapeHtml(String(entry.progressWithinLevel).padStart(2, '0'))}</small> <progress max="100" value="${entry.progressWithinLevel}"></progress><td>${formatDelta(entry.levelDelta)}<td>${escapeHtml(formatInt(entry.experience))}<td>${formatDelta(entry.experienceDelta)}<td>${escapeHtml(entry.rank)}<td>${formatDelta(entry.rankDelta, {invert: true})}`);
 	}
-	const {days, levelDelta, experienceDelta, rankDelta, targetLevel, targetLevelDelta, targetLevelExperienceDelta} = embellished.meta;
-	const levelsPerDay = levelDelta / days;
-	const experiencePerDay = experienceDelta / days;
-	table.push(`<tfoot><tr><th scope=row>${escapeHtml(formatInt(days))} days<td colspan=2>${formatDelta(levelDelta)} levels <span class="average">≈ ${escapeHtml(levelsPerDay.toFixed(2))} levels per day</span> <span class="average">≈ ${escapeHtml(Math.ceil(targetLevelDelta / levelsPerDay))} days until level ${escapeHtml(formatInt(targetLevel))}</span><td colspan=2>${formatDelta(experienceDelta)} experience <span class="average">≈ ${escapeHtml(formatInt(experiencePerDay))} experience per day</span> <span class="average">≈ ${escapeHtml(Math.ceil(targetLevelExperienceDelta / experiencePerDay))} days until level ${escapeHtml(formatInt(targetLevel))}</span><td colspan=2>${formatDelta(rankDelta, {invert: true})} ranks`);
+	const meta = embellished.meta;
+	table.push(`
+		<tfoot>
+			<tr>
+				<th scope="row">${escapeHtml(formatInt(meta.days))} days
+				<td colspan="2">${formatDelta(meta.levelDelta)} levels
+					<span class="average">≈ ${escapeHtml(meta.levelsPerDay.toFixed(2))} levels per day</span>
+					<span class="average">≈ ${escapeHtml(Math.ceil(meta.daysUntilNextBaseBreakpointLevelBasedOnLevelsPerDay))} days until level ${escapeHtml(formatInt(meta.nextBaseBreakpointLevel))}</span>
+					<span class="average">≈ ${escapeHtml(Math.ceil(meta.daysUntilNextMilestoneLevelBasedOnLevelsPerDay))} days until level ${escapeHtml(formatInt(meta.nextMilestoneLevel))}</span>
+				<td colspan="2">${formatDelta(meta.experienceDelta)} experience
+					<span class="average">≈ ${escapeHtml(formatInt(meta.experiencePerDay))} experience per day</span>
+					<span class="average">≈ ${escapeHtml(Math.ceil(meta.daysUntilNextBaseBreakpointLevelExperienceBasedOnExperiencePerDay))} days until
+						<span title="Level ${escapeHtml(formatInt(meta.nextBaseBreakpointLevel))} is the next base value breakpoint level at which base damage and healing increases to ${escapeHtml(formatInt(meta.nextBaseValue))}. It requires a total of ${escapeHtml(formatInt(meta.nextBaseBreakpointLevelExperience))} experience — just ${escapeHtml(formatInt(meta.nextBaseBreakpointLevelExperienceDelta))} experience to go!">level ${escapeHtml(formatInt(meta.nextBaseBreakpointLevel))}</span>
+					</span>
+					<span class="average">≈ ${escapeHtml(Math.ceil(meta.daysUntilNextMilestoneLevelExperienceBasedOnExperiencePerDay))} days until
+					<span title="Level ${escapeHtml(formatInt(meta.nextMilestoneLevel))} requires a total of ${escapeHtml(formatInt(meta.nextMilestoneLevelExperience))} experience — just ${escapeHtml(formatInt(meta.nextMilestoneLevelExperienceDelta))} experience to go!">level ${escapeHtml(formatInt(meta.nextMilestoneLevel))}</span>
+				</span>
+				<td colspan="2">${formatDelta(meta.rankDelta, {invert: true})} ranks
+	`);
 	table.push('</table></div>');
 	output.push(table.join(''));
 	const html = output.join('');
