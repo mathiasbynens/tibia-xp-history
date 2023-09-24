@@ -19,6 +19,14 @@ export const computeNextBaseBreakpointLevel = (level) => {
 	return level + stepSize - ((level + 1000) % stepSize);
 };
 
+export const computeMinimumLevelWithBaseValue = (base) => {
+  console.assert(0 <= base && base <= 1000);
+  if (base === 0)
+    return 1; // Lowest possible level.
+	const hecto = Math.floor(base / 100);
+  return -50 * hecto ** 2 + (base - 50) * hecto + 5 * base;
+};
+
 // Formulas w.r.t. levels and experience.
 // https://tibia.fandom.com/wiki/Experience_Formula
 
