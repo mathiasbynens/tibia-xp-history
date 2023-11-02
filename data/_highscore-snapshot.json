@@ -9,8 +9,8 @@
 				"name": "Top Maximum",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1615,
-				"value": 70020572997
+				"level": 1616,
+				"value": 70133860919
 			},
 			{
 				"rank": 2,
@@ -34,7 +34,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1370,
-				"value": 42741330038
+				"value": 42758656402
 			},
 			{
 				"rank": 5,
@@ -42,15 +42,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1345,
-				"value": 40377906626
+				"value": 40397723793
 			},
 			{
 				"rank": 6,
 				"name": "Sabziro",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1298,
-				"value": 36361820610
+				"level": 1299,
+				"value": 36392800354
 			},
 			{
 				"rank": 7,
@@ -65,8 +65,8 @@
 				"name": "Bladei",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1228,
-				"value": 30726540225
+				"level": 1229,
+				"value": 30812992617
 			},
 			{
 				"rank": 9,
@@ -82,7 +82,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1173,
-				"value": 26790893503
+				"value": 26812543064
 			},
 			{
 				"rank": 11,
@@ -97,8 +97,8 @@
 				"name": "Pabayaga Messi",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1154,
-				"value": 25540044743
+				"level": 1156,
+				"value": 25621127997
 			},
 			{
 				"rank": 13,
@@ -122,7 +122,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1135,
-				"value": 24278661508
+				"value": 24293710233
 			},
 			{
 				"rank": 16,
@@ -137,16 +137,16 @@
 				"name": "Anardiel",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1126,
-				"value": 23723375963
+				"level": 1127,
+				"value": 23730741281
 			},
 			{
 				"rank": 18,
 				"name": "Zakutinho",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1094,
-				"value": 21717913919
+				"level": 1095,
+				"value": 21766334483
 			},
 			{
 				"rank": 19,
@@ -154,7 +154,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1082,
-				"value": 21016264593
+				"value": 21016268828
 			},
 			{
 				"rank": 20,
@@ -170,7 +170,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1056,
-				"value": 19533748813
+				"value": 19533837957
 			},
 			{
 				"rank": 22,
@@ -185,8 +185,8 @@
 				"name": "Nozyk",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1029,
-				"value": 18061779358
+				"level": 1030,
+				"value": 18114797576
 			},
 			{
 				"rank": 24,
@@ -194,7 +194,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1028,
-				"value": 18041240273
+				"value": 18041418373
 			},
 			{
 				"rank": 25,
@@ -202,7 +202,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1022,
-				"value": 17687583713
+				"value": 17698824769
 			},
 			{
 				"rank": 26,
@@ -210,7 +210,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1012,
-				"value": 17171798913
+				"value": 17188151609
 			},
 			{
 				"rank": 27,
@@ -254,19 +254,19 @@
 			},
 			{
 				"rank": 32,
+				"name": "Rixaari",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 944,
+				"value": 13939287962
+			},
+			{
+				"rank": 33,
 				"name": "Mancik",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 943,
-				"value": 13907668693
-			},
-			{
-				"rank": 33,
-				"name": "Rixaari",
-				"vocation": "Royal Paladin",
-				"world": "Vunira",
-				"level": 943,
-				"value": 13906334613
+				"value": 13912348551
 			},
 			{
 				"rank": 34,
@@ -281,11 +281,19 @@
 				"name": "Overlord Assassin",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 925,
-				"value": 13130810814
+				"level": 926,
+				"value": 13160464968
 			},
 			{
 				"rank": 36,
+				"name": "Fifiq",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 924,
+				"value": 13101016189
+			},
+			{
+				"rank": 37,
 				"name": "Zagnus Ened",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -293,15 +301,15 @@
 				"value": 13088251979
 			},
 			{
-				"rank": 37,
-				"name": "Fifiq",
+				"rank": 38,
+				"name": "Kimpsuu",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 924,
-				"value": 13065685224
+				"level": 923,
+				"value": 13028195359
 			},
 			{
-				"rank": 38,
+				"rank": 39,
 				"name": "Alriken",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -309,20 +317,12 @@
 				"value": 13002017123
 			},
 			{
-				"rank": 39,
-				"name": "Kimpsuu",
-				"vocation": "Royal Paladin",
-				"world": "Vunira",
-				"level": 922,
-				"value": 12998787333
-			},
-			{
 				"rank": 40,
 				"name": "Dzika Poziomka",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 919,
-				"value": 12865675342
+				"value": 12866594235
 			},
 			{
 				"rank": 41,
@@ -362,31 +362,31 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 902,
-				"value": 12162282276
+				"value": 12183762226
 			},
 			{
 				"rank": 46,
 				"name": "Pan Szympans",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 901,
-				"value": 12144442112
+				"level": 902,
+				"value": 12154331019
 			},
 			{
 				"rank": 47,
 				"name": "Mathias Bynens",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 888,
-				"value": 11616054128
+				"level": 889,
+				"value": 11645593859
 			},
 			{
 				"rank": 48,
 				"name": "Asto Beles",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 885,
-				"value": 11511194702
+				"level": 884,
+				"value": 11460661058
 			},
 			{
 				"rank": 49,
@@ -394,7 +394,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 881,
-				"value": 11330346851
+				"value": 11330401809
 			},
 			{
 				"rank": 50,
@@ -402,7 +402,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 868,
-				"value": 10833114663
+				"value": 10833389553
 			}
 		],
 		"highscore_page": {
