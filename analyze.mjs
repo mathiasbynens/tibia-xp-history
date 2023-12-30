@@ -125,11 +125,9 @@ const embellish = (history, limit = false) => {
 	return result;
 };
 
-
-
 const HISTORY = new Map(Object.entries(await readJsonFile('./data/xp-history.json')));
 export const HISTORY_EMBELLISHED = embellish(HISTORY, Infinity);
+await updateHtml('./dist/index.html', HISTORY_EMBELLISHED);
 
-//await updateReadmeTable(HISTORY_EMBELLISHED);
-
-await updateHtml(HISTORY_EMBELLISHED);
+export const HISTORY_30_EMBELLISHED = embellish(HISTORY, 30);
+await updateHtml('./dist/30.html', HISTORY_30_EMBELLISHED);

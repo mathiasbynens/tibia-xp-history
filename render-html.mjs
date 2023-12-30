@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import { escape as escapeHtml, min } from 'lodash-es';
+import { escape as escapeHtml } from 'lodash-es';
 import { minify as minifyHtml } from 'html-minifier-terser';
 
 const intFormatter = new Intl.NumberFormat('en', {
@@ -70,7 +70,7 @@ const renderHtml = (embellished) => {
 	return html;
 };
 
-export const updateHtml = async (embellished) => {
+export const updateHtml = async (fileName, embellished) => {
 	const htmlTemplate = await fs.readFile('./templates/index.html', 'utf8');
 	const html = htmlTemplate.toString()
 		.replace('%%%DATA%%%', renderHtml(embellished));
@@ -96,6 +96,6 @@ export const updateHtml = async (embellished) => {
 		sortAttributes: true,
 		sortClassName: true,
 	});
-	await fs.writeFile('./dist/index.html', minifiedHtml);
+	await fs.writeFile(fileName, minifiedHtml);
 };
 
