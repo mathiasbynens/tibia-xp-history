@@ -9,8 +9,8 @@
 				"name": "Top Maximum",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1744,
-				"value": 88190742250
+				"level": 1745,
+				"value": 88295632954
 			},
 			{
 				"rank": 2,
@@ -18,7 +18,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1666,
-				"value": 76848544713
+				"value": 76848739934
 			},
 			{
 				"rank": 3,
@@ -42,7 +42,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1416,
-				"value": 47178535826
+				"value": 47202779263
 			},
 			{
 				"rank": 6,
@@ -50,15 +50,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1415,
-				"value": 47030330708
+				"value": 47064138365
 			},
 			{
 				"rank": 7,
 				"name": "Sabziro",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1387,
-				"value": 44351327404
+				"level": 1388,
+				"value": 44379207117
 			},
 			{
 				"rank": 8,
@@ -66,7 +66,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1297,
-				"value": 36199741555
+				"value": 36241080602
 			},
 			{
 				"rank": 9,
@@ -74,7 +74,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1275,
-				"value": 34440131504
+				"value": 34448207888
 			},
 			{
 				"rank": 10,
@@ -97,8 +97,8 @@
 				"name": "Reo Light",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1219,
-				"value": 30113964359
+				"level": 1220,
+				"value": 30156052772
 			},
 			{
 				"rank": 13,
@@ -106,15 +106,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1219,
-				"value": 30078125118
+				"value": 30103823748
 			},
 			{
 				"rank": 14,
 				"name": "Lanchadanan",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1213,
-				"value": 29645412703
+				"level": 1214,
+				"value": 29701900968
 			},
 			{
 				"rank": 15,
@@ -122,15 +122,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1203,
-				"value": 28889974808
+				"value": 28890703736
 			},
 			{
 				"rank": 16,
 				"name": "Nozyk",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1193,
-				"value": 28222632868
+				"level": 1194,
+				"value": 28281079104
 			},
 			{
 				"rank": 17,
@@ -138,15 +138,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1167,
-				"value": 26356363504
+				"value": 26380147153
 			},
 			{
 				"rank": 18,
 				"name": "No ayudesanadie",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1151,
-				"value": 25286873595
+				"level": 1149,
+				"value": 25196599664
 			},
 			{
 				"rank": 19,
@@ -154,7 +154,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1136,
-				"value": 24352726906
+				"value": 24359127817
 			},
 			{
 				"rank": 20,
@@ -178,7 +178,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1090,
-				"value": 21506550808
+				"value": 21523237904
 			},
 			{
 				"rank": 23,
@@ -186,7 +186,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1076,
-				"value": 20666530605
+				"value": 20666531010
 			},
 			{
 				"rank": 24,
@@ -225,24 +225,24 @@
 				"name": "Dzika Poziomka",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1028,
-				"value": 18034048875
+				"level": 1029,
+				"value": 18071886724
 			},
 			{
 				"rank": 29,
+				"name": "Super Pinchito",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1020,
+				"value": 17606071621
+			},
+			{
+				"rank": 30,
 				"name": "Kimpsuu",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1020,
 				"value": 17583977176
-			},
-			{
-				"rank": 30,
-				"name": "Super Pinchito",
-				"vocation": "Royal Paladin",
-				"world": "Vunira",
-				"level": 1019,
-				"value": 17567480976
 			},
 			{
 				"rank": 31,
@@ -258,7 +258,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1012,
-				"value": 17214918974
+				"value": 17218995646
 			},
 			{
 				"rank": 33,
@@ -282,31 +282,31 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1002,
-				"value": 16707954958
+				"value": 16709493551
 			},
 			{
 				"rank": 36,
 				"name": "Kriptya",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 999,
-				"value": 16552011231
+				"level": 998,
+				"value": 16487189136
 			},
 			{
 				"rank": 37,
 				"name": "Overlord Assassin",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 994,
-				"value": 16307539043
+				"level": 995,
+				"value": 16341134110
 			},
 			{
 				"rank": 38,
 				"name": "Mancik",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 989,
-				"value": 16055984094
+				"level": 988,
+				"value": 16008504194
 			},
 			{
 				"rank": 39,
@@ -353,32 +353,32 @@
 				"name": "Marjan Endox",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 946,
-				"value": 14043994138
+				"level": 947,
+				"value": 14080328147
 			},
 			{
 				"rank": 45,
 				"name": "Zagnus Ened",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 943,
-				"value": 13913110072
+				"level": 944,
+				"value": 13939155572
 			},
 			{
 				"rank": 46,
 				"name": "Vic Del'Sal",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 936,
-				"value": 13608431362
+				"level": 937,
+				"value": 13654028838
 			},
 			{
 				"rank": 47,
 				"name": "Vortumnuus",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 931,
-				"value": 13395415266
+				"level": 932,
+				"value": 13420743569
 			},
 			{
 				"rank": 48,
@@ -386,7 +386,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 928,
-				"value": 13252345120
+				"value": 13252368053
 			},
 			{
 				"rank": 49,
@@ -402,7 +402,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 921,
-				"value": 12952504006
+				"value": 12953441838
 			}
 		],
 		"highscore_page": {
