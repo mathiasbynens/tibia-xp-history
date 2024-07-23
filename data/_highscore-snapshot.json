@@ -9,32 +9,32 @@
 				"name": "Top Maximum",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1783,
-				"value": 94265238203
+				"level": 1784,
+				"value": 94370652739
 			},
 			{
 				"rank": 2,
 				"name": "Partyboost",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1705,
-				"value": 82351544777
+				"level": 1706,
+				"value": 82487433187
 			},
 			{
 				"rank": 3,
 				"name": "Tomoho",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1510,
-				"value": 57177379032
+				"level": 1511,
+				"value": 57281649948
 			},
 			{
 				"rank": 4,
 				"name": "Sinsor",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1432,
-				"value": 48827697933
+				"level": 1433,
+				"value": 48861827599
 			},
 			{
 				"rank": 5,
@@ -50,7 +50,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1408,
-				"value": 46328621659
+				"value": 46342932197
 			},
 			{
 				"rank": 7,
@@ -66,7 +66,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1293,
-				"value": 35915151701
+				"value": 35915172790
 			},
 			{
 				"rank": 9,
@@ -82,23 +82,23 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1253,
-				"value": 32634099267
+				"value": 32697314320
 			},
 			{
 				"rank": 11,
 				"name": "Piipexz",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1252,
-				"value": 32598024771
+				"level": 1253,
+				"value": 32684034765
 			},
 			{
 				"rank": 12,
 				"name": "Reo Light",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1245,
-				"value": 32058781544
+				"level": 1246,
+				"value": 32100862517
 			},
 			{
 				"rank": 13,
@@ -130,7 +130,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1188,
-				"value": 27827129631
+				"value": 27854781635
 			},
 			{
 				"rank": 17,
@@ -138,7 +138,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1162,
-				"value": 26015987608
+				"value": 26039453976
 			},
 			{
 				"rank": 18,
@@ -154,7 +154,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1144,
-				"value": 24826977363
+				"value": 24832185996
 			},
 			{
 				"rank": 20,
@@ -170,7 +170,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1115,
-				"value": 23016463999
+				"value": 23026933742
 			},
 			{
 				"rank": 22,
@@ -185,8 +185,8 @@
 				"name": "Shenzhou",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1087,
-				"value": 21316633369
+				"level": 1088,
+				"value": 21366085930
 			},
 			{
 				"rank": 24,
@@ -201,8 +201,8 @@
 				"name": "Super Pinchito",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1064,
-				"value": 20010419621
+				"level": 1065,
+				"value": 20055161322
 			},
 			{
 				"rank": 26,
@@ -210,7 +210,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1063,
-				"value": 19929359846
+				"value": 19951160662
 			},
 			{
 				"rank": 27,
@@ -225,8 +225,8 @@
 				"name": "Prez es",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1056,
-				"value": 19570526749
+				"level": 1057,
+				"value": 19571330133
 			},
 			{
 				"rank": 29,
@@ -242,7 +242,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1039,
-				"value": 18587922876
+				"value": 18611122670
 			},
 			{
 				"rank": 31,
@@ -250,7 +250,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1031,
-				"value": 18206795926
+				"value": 18207723645
 			},
 			{
 				"rank": 32,
@@ -258,15 +258,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1025,
-				"value": 17852850039
+				"value": 17868924117
 			},
 			{
 				"rank": 33,
 				"name": "Overlord Assassin",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1015,
-				"value": 17375457623
+				"level": 1016,
+				"value": 17414331912
 			},
 			{
 				"rank": 34,
@@ -278,19 +278,19 @@
 			},
 			{
 				"rank": 35,
+				"name": "Mancik",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1004,
+				"value": 16795683317
+			},
+			{
+				"rank": 36,
 				"name": "Ladyy Aias",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1004,
 				"value": 16784133035
-			},
-			{
-				"rank": 36,
-				"name": "Mancik",
-				"vocation": "Royal Paladin",
-				"world": "Vunira",
-				"level": 1004,
-				"value": 16773317989
 			},
 			{
 				"rank": 37,
@@ -306,7 +306,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 980,
-				"value": 15624358315
+				"value": 15633884506
 			},
 			{
 				"rank": 39,
@@ -321,8 +321,8 @@
 				"name": "Marjan Endox",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 973,
-				"value": 15279856986
+				"level": 974,
+				"value": 15315982871
 			},
 			{
 				"rank": 41,
@@ -330,7 +330,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 972,
-				"value": 15224594349
+				"value": 15253072737
 			},
 			{
 				"rank": 42,
@@ -358,11 +358,11 @@
 			},
 			{
 				"rank": 45,
-				"name": "Vortumnuus",
+				"name": "Wojjtekk",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 953,
-				"value": 14349434948
+				"level": 952,
+				"value": 14312928229
 			},
 			{
 				"rank": 46,
@@ -374,11 +374,11 @@
 			},
 			{
 				"rank": 47,
-				"name": "Wojjtekk",
+				"name": "Vortumnuus",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 952,
-				"value": 14302463020
+				"value": 14304831653
 			},
 			{
 				"rank": 48,
@@ -386,7 +386,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 936,
-				"value": 13584176935
+				"value": 13584362044
 			},
 			{
 				"rank": 49,
@@ -394,7 +394,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 935,
-				"value": 13558596991
+				"value": 13560018269
 			},
 			{
 				"rank": 50,
@@ -415,7 +415,7 @@
 		"api": {
 			"version": 4,
 			"release": "edge",
-			"commit": "e5ab1742718020cb92b949539de92a927c18cf00"
+			"commit": "9505c7b6afd1e79430b5fc27fde5f983edcc1069"
 		},
 		"status": {
 			"http_code": 200
