@@ -9,8 +9,8 @@
 				"name": "Partyboost",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1842,
-				"value": 103898290954
+				"level": 1843,
+				"value": 104031690001
 			},
 			{
 				"rank": 2,
@@ -26,15 +26,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1501,
-				"value": 56198064664
+				"value": 56229180085
 			},
 			{
 				"rank": 4,
 				"name": "Sabziro",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1479,
-				"value": 53743841372
+				"level": 1480,
+				"value": 53820426748
 			},
 			{
 				"rank": 5,
@@ -42,7 +42,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1467,
-				"value": 52409414826
+				"value": 52429461221
 			},
 			{
 				"rank": 6,
@@ -50,7 +50,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1391,
-				"value": 44709543132
+				"value": 44753801704
 			},
 			{
 				"rank": 7,
@@ -73,8 +73,8 @@
 				"name": "Lanchadanan",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1312,
-				"value": 37471217891
+				"level": 1313,
+				"value": 37557740532
 			},
 			{
 				"rank": 10,
@@ -82,15 +82,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1297,
-				"value": 36273415594
+				"value": 36273505552
 			},
 			{
 				"rank": 11,
 				"name": "Reo Light",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1292,
-				"value": 35839685700
+				"level": 1293,
+				"value": 35866224640
 			},
 			{
 				"rank": 12,
@@ -105,8 +105,8 @@
 				"name": "Zoxerr",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1250,
-				"value": 32440057832
+				"level": 1251,
+				"value": 32497574906
 			},
 			{
 				"rank": 14,
@@ -126,19 +126,19 @@
 			},
 			{
 				"rank": 16,
-				"name": "Pastor Koylu",
-				"vocation": "Royal Paladin",
-				"world": "Vunira",
-				"level": 1193,
-				"value": 28224130159
-			},
-			{
-				"rank": 17,
 				"name": "Mathias Bynens",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1193,
-				"value": 28176624133
+				"level": 1194,
+				"value": 28269733552
+			},
+			{
+				"rank": 17,
+				"name": "Pastor Koylu",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1194,
+				"value": 28250299902
 			},
 			{
 				"rank": 18,
@@ -146,15 +146,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1188,
-				"value": 27806615827
+				"value": 27832153585
 			},
 			{
 				"rank": 19,
 				"name": "Lakroz",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1184,
-				"value": 27578605100
+				"level": 1185,
+				"value": 27614752102
 			},
 			{
 				"rank": 20,
@@ -162,7 +162,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1161,
-				"value": 25980702128
+				"value": 26003089893
 			},
 			{
 				"rank": 21,
@@ -170,26 +170,18 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1142,
-				"value": 24719270218
+				"value": 24719558737
 			},
 			{
 				"rank": 22,
-				"name": "Klasson",
-				"vocation": "Royal Paladin",
-				"world": "Vunira",
-				"level": 1142,
-				"value": 24701482347
-			},
-			{
-				"rank": 23,
 				"name": "Itbethrobbin",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1133,
-				"value": 24113202083
+				"value": 24123103447
 			},
 			{
-				"rank": 24,
+				"rank": 23,
 				"name": "Gubb Sam",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -197,7 +189,7 @@
 				"value": 23525621676
 			},
 			{
-				"rank": 25,
+				"rank": 24,
 				"name": "Super Pinchito",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -205,15 +197,15 @@
 				"value": 23059334260
 			},
 			{
-				"rank": 26,
+				"rank": 25,
 				"name": "Royal druidiaaa",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1108,
-				"value": 22556352113
+				"value": 22572065637
 			},
 			{
-				"rank": 27,
+				"rank": 26,
 				"name": "Shenzhou",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -221,7 +213,7 @@
 				"value": 22433248657
 			},
 			{
-				"rank": 28,
+				"rank": 27,
 				"name": "Venus",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -229,15 +221,15 @@
 				"value": 22247535764
 			},
 			{
-				"rank": 29,
+				"rank": 28,
 				"name": "Wojjtekk",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1096,
-				"value": 21847365485
+				"level": 1097,
+				"value": 21932824888
 			},
 			{
-				"rank": 30,
+				"rank": 29,
 				"name": "Exevus",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -245,7 +237,7 @@
 				"value": 21499397706
 			},
 			{
-				"rank": 31,
+				"rank": 30,
 				"name": "Claq",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -253,7 +245,7 @@
 				"value": 20702980365
 			},
 			{
-				"rank": 32,
+				"rank": 31,
 				"name": "Crim Moon",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -261,23 +253,23 @@
 				"value": 20082511322
 			},
 			{
-				"rank": 33,
+				"rank": 32,
 				"name": "Mega Marjan",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1052,
-				"value": 19315324148
+				"value": 19347745089
 			},
 			{
-				"rank": 34,
+				"rank": 33,
 				"name": "Struke",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1051,
-				"value": 19261836737
+				"value": 19264228485
 			},
 			{
-				"rank": 35,
+				"rank": 34,
 				"name": "Vic Del'Sal",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -285,15 +277,15 @@
 				"value": 18066607413
 			},
 			{
-				"rank": 36,
+				"rank": 35,
 				"name": "Royal For salee",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1024,
-				"value": 17806380759
+				"value": 17820152456
 			},
 			{
-				"rank": 37,
+				"rank": 36,
 				"name": "Draakz",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -301,23 +293,23 @@
 				"value": 17466511587
 			},
 			{
-				"rank": 38,
+				"rank": 37,
 				"name": "Boris Bierdole",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1015,
-				"value": 17357071503
+				"level": 1016,
+				"value": 17397555925
 			},
 			{
-				"rank": 39,
+				"rank": 38,
 				"name": "Gala Tuga",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1013,
-				"value": 17242618476
+				"value": 17249065966
 			},
 			{
-				"rank": 40,
+				"rank": 39,
 				"name": "Lukehimself",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -325,15 +317,15 @@
 				"value": 17224739177
 			},
 			{
-				"rank": 41,
+				"rank": 40,
 				"name": "Mazzika Raa",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1011,
-				"value": 17151083495
+				"level": 1012,
+				"value": 17187406869
 			},
 			{
-				"rank": 42,
+				"rank": 41,
 				"name": "Ladyy Aias",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -341,7 +333,7 @@
 				"value": 16837534490
 			},
 			{
-				"rank": 43,
+				"rank": 42,
 				"name": "Spawacz Oblivion",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -349,39 +341,39 @@
 				"value": 16713599670
 			},
 			{
-				"rank": 44,
+				"rank": 43,
 				"name": "Alriken",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 994,
-				"value": 16270983940
+				"value": 16285523082
 			},
 			{
-				"rank": 45,
+				"rank": 44,
 				"name": "Deexter",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 979,
-				"value": 15573353616
+				"value": 15573793716
 			},
 			{
-				"rank": 46,
+				"rank": 45,
 				"name": "Pan Szympans",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 970,
-				"value": 15136629647
+				"level": 971,
+				"value": 15172414895
 			},
 			{
-				"rank": 47,
+				"rank": 46,
 				"name": "Ball Eron",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 965,
-				"value": 14920406598
+				"level": 964,
+				"value": 14860176482
 			},
 			{
-				"rank": 48,
+				"rank": 47,
 				"name": "Zagnus Ened",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -389,7 +381,7 @@
 				"value": 14530176835
 			},
 			{
-				"rank": 49,
+				"rank": 48,
 				"name": "Wvvuwvv",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -397,12 +389,20 @@
 				"value": 14297805180
 			},
 			{
-				"rank": 50,
+				"rank": 49,
 				"name": "Thyleon",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 946,
 				"value": 14054598684
+			},
+			{
+				"rank": 50,
+				"name": "Royaal Tanker",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 933,
+				"value": 13455928855
 			}
 		],
 		"highscore_page": {
