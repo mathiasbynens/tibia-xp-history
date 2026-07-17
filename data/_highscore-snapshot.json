@@ -10,15 +10,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 2095,
-				"value": 152895663844
+				"value": 152943587715
 			},
 			{
 				"rank": 2,
 				"name": "Not Radraz",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1875,
-				"value": 109627552053
+				"level": 1876,
+				"value": 109739831554
 			},
 			{
 				"rank": 3,
@@ -26,23 +26,23 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1722,
-				"value": 84851212106
+				"value": 84903671473
 			},
 			{
 				"rank": 4,
 				"name": "Sabziro",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1718,
-				"value": 84334128431
+				"level": 1716,
+				"value": 84044697717
 			},
 			{
 				"rank": 5,
 				"name": "Nozyk",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1709,
-				"value": 83031508930
+				"level": 1710,
+				"value": 83085579967
 			},
 			{
 				"rank": 6,
@@ -50,23 +50,23 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1668,
-				"value": 77151802461
+				"value": 77179642265
 			},
 			{
 				"rank": 7,
 				"name": "Alex Froggy",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1661,
-				"value": 76169018112
+				"level": 1662,
+				"value": 76305426501
 			},
 			{
 				"rank": 8,
 				"name": "Mathias Bynens",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1621,
-				"value": 70856890704
+				"level": 1622,
+				"value": 70930361370
 			},
 			{
 				"rank": 9,
@@ -82,31 +82,31 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1489,
-				"value": 54839957457
+				"value": 54893965826
 			},
 			{
 				"rank": 11,
 				"name": "Mad Bully",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1455,
-				"value": 51193284117
+				"level": 1456,
+				"value": 51260277635
 			},
 			{
 				"rank": 12,
 				"name": "Bea Charlover Aca",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1447,
-				"value": 50338965584
+				"level": 1448,
+				"value": 50407518303
 			},
 			{
 				"rank": 13,
 				"name": "Reo Light",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1438,
-				"value": 49454172781
+				"level": 1439,
+				"value": 49504153394
 			},
 			{
 				"rank": 14,
@@ -121,8 +121,8 @@
 				"name": "Yes Yes",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1434,
-				"value": 49023275210
+				"level": 1435,
+				"value": 49073740125
 			},
 			{
 				"rank": 16,
@@ -130,7 +130,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1394,
-				"value": 44996306363
+				"value": 45024998268
 			},
 			{
 				"rank": 17,
@@ -138,7 +138,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1381,
-				"value": 43763597633
+				"value": 43791795644
 			},
 			{
 				"rank": 18,
@@ -154,7 +154,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1347,
-				"value": 40566138528
+				"value": 40573766830
 			},
 			{
 				"rank": 20,
@@ -162,7 +162,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1342,
-				"value": 40102909292
+				"value": 40144220811
 			},
 			{
 				"rank": 21,
@@ -177,8 +177,8 @@
 				"name": "Troxydogg The Bountyhunter",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1300,
-				"value": 36498085341
+				"level": 1301,
+				"value": 36543231802
 			},
 			{
 				"rank": 23,
@@ -186,7 +186,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1299,
-				"value": 36397274227
+				"value": 36410690601
 			},
 			{
 				"rank": 24,
@@ -194,10 +194,18 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1284,
-				"value": 35157855983
+				"value": 35190955709
 			},
 			{
 				"rank": 25,
+				"name": "Royal druidiaaa",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1269,
+				"value": 33958124944
+			},
+			{
+				"rank": 26,
 				"name": "Linkirvana",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
@@ -205,20 +213,12 @@
 				"value": 33931770450
 			},
 			{
-				"rank": 26,
-				"name": "Royal druidiaaa",
-				"vocation": "Royal Paladin",
-				"world": "Vunira",
-				"level": 1269,
-				"value": 33915443783
-			},
-			{
 				"rank": 27,
 				"name": "Galatus",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1264,
-				"value": 33550826441
+				"value": 33556788609
 			},
 			{
 				"rank": 28,
@@ -226,15 +226,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1252,
-				"value": 32606504400
+				"value": 32610568673
 			},
 			{
 				"rank": 29,
 				"name": "Super Pinchito",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1227,
-				"value": 30672611426
+				"level": 1228,
+				"value": 30713400578
 			},
 			{
 				"rank": 30,
@@ -242,7 +242,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1227,
-				"value": 30656226140
+				"value": 30668240956
 			},
 			{
 				"rank": 31,
@@ -250,15 +250,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1225,
-				"value": 30530528976
+				"value": 30547962291
 			},
 			{
 				"rank": 32,
 				"name": "Overlord Dagnars",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1217,
-				"value": 29950265060
+				"level": 1218,
+				"value": 29976520962
 			},
 			{
 				"rank": 33,
@@ -266,15 +266,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1189,
-				"value": 27877452220
+				"value": 27907107177
 			},
 			{
 				"rank": 34,
 				"name": "Mazzika Raa",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1177,
-				"value": 27073304568
+				"level": 1178,
+				"value": 27127220701
 			},
 			{
 				"rank": 35,
@@ -282,7 +282,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1164,
-				"value": 26166135775
+				"value": 26166304919
 			},
 			{
 				"rank": 36,
@@ -294,19 +294,19 @@
 			},
 			{
 				"rank": 37,
+				"name": "Claq",
+				"vocation": "Royal Paladin",
+				"world": "Vunira",
+				"level": 1146,
+				"value": 24954525768
+			},
+			{
+				"rank": 38,
 				"name": "Gide Ba",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1145,
-				"value": 24911324716
-			},
-			{
-				"rank": 38,
-				"name": "Claq",
-				"vocation": "Royal Paladin",
-				"world": "Vunira",
-				"level": 1145,
-				"value": 24896908517
+				"value": 24930686763
 			},
 			{
 				"rank": 39,
@@ -330,7 +330,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1124,
-				"value": 23552143554
+				"value": 23554271742
 			},
 			{
 				"rank": 42,
@@ -338,15 +338,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1122,
-				"value": 23444094444
+				"value": 23467588978
 			},
 			{
 				"rank": 43,
 				"name": "Tad Dzik",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1117,
-				"value": 23153583573
+				"level": 1118,
+				"value": 23175793293
 			},
 			{
 				"rank": 44,
@@ -361,16 +361,16 @@
 				"name": "Nagrix",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1106,
-				"value": 22473998074
+				"level": 1107,
+				"value": 22501078148
 			},
 			{
 				"rank": 46,
 				"name": "Maan Temor",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1086,
-				"value": 21262066505
+				"level": 1087,
+				"value": 21288395569
 			},
 			{
 				"rank": 47,
@@ -378,7 +378,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1084,
-				"value": 21115188752
+				"value": 21128421201
 			},
 			{
 				"rank": 48,
@@ -386,7 +386,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
 				"level": 1082,
-				"value": 21027497564
+				"value": 21032296190
 			},
 			{
 				"rank": 49,
@@ -401,8 +401,8 @@
 				"name": "Thyleon",
 				"vocation": "Royal Paladin",
 				"world": "Vunira",
-				"level": 1068,
-				"value": 20211543753
+				"level": 1069,
+				"value": 20256549934
 			}
 		],
 		"highscore_page": {
