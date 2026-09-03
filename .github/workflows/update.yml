@@ -2,22 +2,23 @@ name: 'Update data'
 
 on:
   schedule:
-    # During CEST, run daily at 03:00 UTC (i.e. 04:00 during CET or 5:00 CEST).
+    # Run daily at 03:00 CET/CEST.
     - cron: '00 03 * * *'
+      timezone: 'Europe/Berlin'
   workflow_dispatch:
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Check out repository
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v7
         with:
           node-version-file: '.nvmrc'
 
