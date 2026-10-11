@@ -31,7 +31,7 @@ const matchesSnapshot = async (todaysSnapshot) => {
 };
 
 const getHighscoreData = async (page = 1) => {
-	const url = `https://dev.tibiadata.com/v4/highscores/Vunira/experience/paladins/${page}`;
+	const url = `https://dev.tibiadata.com/v4/highscores/Lobera/experience/paladins/${page}`;
 	const response = await fetch(url);
 	const data = await response.json();
 
