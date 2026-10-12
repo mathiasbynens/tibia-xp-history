@@ -10,7 +10,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 2389,
-				"value": 226809787393
+				"value": 226875772884
 			},
 			{
 				"rank": 2,
@@ -18,15 +18,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 2034,
-				"value": 140009702961
+				"value": 140009741779
 			},
 			{
 				"rank": 3,
 				"name": "Kronek",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1936,
-				"value": 120658866765
+				"level": 1937,
+				"value": 120811132443
 			},
 			{
 				"rank": 4,
@@ -34,7 +34,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1799,
-				"value": 96772074683
+				"value": 96783552362
 			},
 			{
 				"rank": 5,
@@ -49,8 +49,8 @@
 				"name": "Aiken Rush",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1772,
-				"value": 92427713223
+				"level": 1769,
+				"value": 92087889292
 			},
 			{
 				"rank": 7,
@@ -58,15 +58,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1761,
-				"value": 90741122317
+				"value": 90811901902
 			},
 			{
 				"rank": 8,
 				"name": "Myrkz",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1734,
-				"value": 86743630279
+				"level": 1735,
+				"value": 86784916149
 			},
 			{
 				"rank": 9,
@@ -74,7 +74,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1699,
-				"value": 81455045104
+				"value": 81466304555
 			},
 			{
 				"rank": 10,
@@ -82,7 +82,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1684,
-				"value": 79351030281
+				"value": 79351164932
 			},
 			{
 				"rank": 11,
@@ -98,7 +98,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1480,
-				"value": 53822826209
+				"value": 53844685849
 			},
 			{
 				"rank": 13,
@@ -106,7 +106,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1476,
-				"value": 53441119991
+				"value": 53441154971
 			},
 			{
 				"rank": 14,
@@ -129,24 +129,24 @@
 				"name": "Bullistic",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1421,
-				"value": 47711936978
+				"level": 1422,
+				"value": 47750650114
 			},
 			{
 				"rank": 17,
 				"name": "Aura Farming",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1420,
-				"value": 47602731762
+				"level": 1421,
+				"value": 47643658408
 			},
 			{
 				"rank": 18,
 				"name": "Coperiman",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1396,
-				"value": 45203731908
+				"level": 1397,
+				"value": 45265381231
 			},
 			{
 				"rank": 19,
@@ -162,23 +162,23 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1316,
-				"value": 37818728517
+				"value": 37819185834
 			},
 			{
 				"rank": 21,
 				"name": "Royal Strellita",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1300,
-				"value": 36450787365
+				"level": 1301,
+				"value": 36539840270
 			},
 			{
 				"rank": 22,
 				"name": "Booski Hansss",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1286,
-				"value": 35351304663
+				"level": 1287,
+				"value": 35415254621
 			},
 			{
 				"rank": 23,
@@ -186,7 +186,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1253,
-				"value": 32650060225
+				"value": 32689558944
 			},
 			{
 				"rank": 24,
@@ -202,7 +202,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1218,
-				"value": 30025517508
+				"value": 30026134269
 			},
 			{
 				"rank": 26,
@@ -210,7 +210,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1207,
-				"value": 29191663513
+				"value": 29209252412
 			},
 			{
 				"rank": 27,
@@ -225,8 +225,8 @@
 				"name": "Kathsz San",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1198,
-				"value": 28541330981
+				"level": 1199,
+				"value": 28626706451
 			},
 			{
 				"rank": 29,
@@ -234,7 +234,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1191,
-				"value": 28020840043
+				"value": 28023805994
 			},
 			{
 				"rank": 30,
@@ -242,15 +242,15 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1187,
-				"value": 27770095760
+				"value": 27776085301
 			},
 			{
 				"rank": 31,
 				"name": "Bella-Swan",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1186,
-				"value": 27721579989
+				"level": 1187,
+				"value": 27735979989
 			},
 			{
 				"rank": 32,
@@ -258,7 +258,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1184,
-				"value": 27564361343
+				"value": 27582834374
 			},
 			{
 				"rank": 33,
@@ -266,7 +266,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1167,
-				"value": 26361084488
+				"value": 26403228265
 			},
 			{
 				"rank": 34,
@@ -290,23 +290,23 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1152,
-				"value": 25356724233
+				"value": 25408835032
 			},
 			{
 				"rank": 37,
+				"name": "Holy Smokess",
+				"vocation": "Royal Paladin",
+				"world": "Lobera",
+				"level": 1147,
+				"value": 25073570044
+			},
+			{
+				"rank": 38,
 				"name": "Josefh Buffon",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1147,
 				"value": 25068985351
-			},
-			{
-				"rank": 38,
-				"name": "Holy Smokess",
-				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1147,
-				"value": 25047010835
 			},
 			{
 				"rank": 39,
@@ -322,7 +322,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1135,
-				"value": 24243055634
+				"value": 24260720219
 			},
 			{
 				"rank": 41,
@@ -345,8 +345,8 @@
 				"name": "Magnos Altec",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1124,
-				"value": 23584265985
+				"level": 1125,
+				"value": 23604934483
 			},
 			{
 				"rank": 44,
@@ -358,19 +358,19 @@
 			},
 			{
 				"rank": 45,
-				"name": "Luquinhas Balalove",
+				"name": "Eduardito siempremuere",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1104,
-				"value": 22314538625
+				"value": 22355186039
 			},
 			{
 				"rank": 46,
 				"name": "Daniel Reinhardt Lindholm",
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
-				"level": 1102,
-				"value": 22204950486
+				"level": 1103,
+				"value": 22246472467
 			},
 			{
 				"rank": 47,
@@ -378,7 +378,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1101,
-				"value": 22130916755
+				"value": 22131449567
 			},
 			{
 				"rank": 48,
@@ -386,7 +386,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1099,
-				"value": 22014873422
+				"value": 22034065178
 			},
 			{
 				"rank": 49,
@@ -394,7 +394,7 @@
 				"vocation": "Royal Paladin",
 				"world": "Lobera",
 				"level": 1095,
-				"value": 21776389594
+				"value": 21804045671
 			},
 			{
 				"rank": 50,
