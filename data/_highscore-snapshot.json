@@ -1,408 +1,408 @@
 {
 	"highscores": {
-		"world": "Lobera",
+		"world": "Vunira",
 		"category": "experience",
 		"vocation": "paladins",
 		"highscore_list": [
 			{
 				"rank": 1,
-				"name": "Almighty Nova",
+				"name": "Partyboost",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 2389,
-				"value": 226875772884
+				"world": "Vunira",
+				"level": 2124,
+				"value": 159356086931
 			},
 			{
 				"rank": 2,
-				"name": "Jerminator",
+				"name": "Jee Bunny Shop",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 2034,
-				"value": 140009741779
+				"world": "Vunira",
+				"level": 1833,
+				"value": 102426261311
 			},
 			{
 				"rank": 3,
-				"name": "Kronek",
+				"name": "Nozyk",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1937,
-				"value": 120811132443
+				"world": "Vunira",
+				"level": 1776,
+				"value": 93179911741
 			},
 			{
 				"rank": 4,
-				"name": "Kiriuz Tirapalitos",
+				"name": "True Abdosz",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1799,
-				"value": 96783552362
+				"world": "Vunira",
+				"level": 1761,
+				"value": 90749916491
 			},
 			{
 				"rank": 5,
-				"name": "Tigcrits",
+				"name": "Sabziro",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1783,
-				"value": 94261791644
+				"world": "Vunira",
+				"level": 1757,
+				"value": 90131301417
 			},
 			{
 				"rank": 6,
-				"name": "Aiken Rush",
+				"name": "Pipo slaughter clown",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1769,
-				"value": 92087889292
+				"world": "Vunira",
+				"level": 1728,
+				"value": 85743359718
 			},
 			{
 				"rank": 7,
-				"name": "Glexorion",
+				"name": "Alex Froggy",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1761,
-				"value": 90811901902
+				"world": "Vunira",
+				"level": 1723,
+				"value": 85083105566
 			},
 			{
 				"rank": 8,
-				"name": "Myrkz",
+				"name": "Mathias Bynens",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1735,
-				"value": 86784916149
+				"world": "Vunira",
+				"level": 1685,
+				"value": 79569452415
 			},
 			{
 				"rank": 9,
-				"name": "Gwyn",
+				"name": "Sinsor",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1699,
-				"value": 81466304555
+				"world": "Vunira",
+				"level": 1673,
+				"value": 77824800285
 			},
 			{
 				"rank": 10,
-				"name": "Mathias Bynens",
+				"name": "Saint Tristen",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1684,
-				"value": 79351164932
+				"world": "Vunira",
+				"level": 1580,
+				"value": 65557241687
 			},
 			{
 				"rank": 11,
-				"name": "Perishing Pete",
+				"name": "Wojjtekk",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1527,
-				"value": 59142071105
+				"world": "Vunira",
+				"level": 1539,
+				"value": 60592958517
 			},
 			{
 				"rank": 12,
-				"name": "Jagerrr",
+				"name": "Bea Charlover Aca",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1480,
-				"value": 53844685849
+				"world": "Vunira",
+				"level": 1502,
+				"value": 56351508963
 			},
 			{
 				"rank": 13,
-				"name": "Just Edu",
+				"name": "Yes Yes",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1476,
-				"value": 53441154971
+				"world": "Vunira",
+				"level": 1488,
+				"value": 54712052749
 			},
 			{
 				"rank": 14,
-				"name": "Beornkim",
+				"name": "Pastor Koylu",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1455,
-				"value": 51173160566
+				"world": "Vunira",
+				"level": 1486,
+				"value": 54534866099
 			},
 			{
 				"rank": 15,
-				"name": "Iron Paladyn",
+				"name": "Mad Bully",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1424,
-				"value": 47930863455
+				"world": "Vunira",
+				"level": 1484,
+				"value": 54252489812
 			},
 			{
 				"rank": 16,
-				"name": "Bullistic",
+				"name": "Reo Light",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1422,
-				"value": 47750650114
+				"world": "Vunira",
+				"level": 1471,
+				"value": 52884321943
 			},
 			{
 				"rank": 17,
-				"name": "Aura Farming",
+				"name": "Bastu Boris",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1421,
-				"value": 47643658408
+				"world": "Vunira",
+				"level": 1451,
+				"value": 50796880158
 			},
 			{
 				"rank": 18,
-				"name": "Coperiman",
+				"name": "Lanchadanan",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1397,
-				"value": 45265381231
+				"world": "Vunira",
+				"level": 1441,
+				"value": 49689558666
 			},
 			{
 				"rank": 19,
-				"name": "Danflexs",
+				"name": "Bluemoon Kimimaro",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1352,
-				"value": 41056787715
+				"world": "Vunira",
+				"level": 1380,
+				"value": 43697817892
 			},
 			{
 				"rank": 20,
-				"name": "Vergus Lodbrok",
+				"name": "Gnoors",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1316,
-				"value": 37819185834
+				"world": "Vunira",
+				"level": 1377,
+				"value": 43373943441
 			},
 			{
 				"rank": 21,
-				"name": "Royal Strellita",
+				"name": "Zoxerr",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1301,
-				"value": 36539840270
+				"world": "Vunira",
+				"level": 1364,
+				"value": 42140539295
 			},
 			{
 				"rank": 22,
-				"name": "Booski Hansss",
+				"name": "Biigy",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1287,
-				"value": 35415254621
+				"world": "Vunira",
+				"level": 1345,
+				"value": 40371918550
 			},
 			{
 				"rank": 23,
-				"name": "Vegeta Furious",
+				"name": "Troxydogg The Bountyhunter",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1253,
-				"value": 32689558944
+				"world": "Vunira",
+				"level": 1326,
+				"value": 38683337158
 			},
 			{
 				"rank": 24,
-				"name": "Negate",
+				"name": "Mepak",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1240,
-				"value": 31631668336
+				"world": "Vunira",
+				"level": 1323,
+				"value": 38489722903
 			},
 			{
 				"rank": 25,
-				"name": "Fenrir Vox",
+				"name": "Arwaa",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1218,
-				"value": 30026134269
+				"world": "Vunira",
+				"level": 1276,
+				"value": 34499726113
 			},
 			{
 				"rank": 26,
-				"name": "Tilo Carsan",
+				"name": "Linkirvana",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1207,
-				"value": 29209252412
+				"world": "Vunira",
+				"level": 1269,
+				"value": 33931770450
 			},
 			{
 				"rank": 27,
-				"name": "Zaki Thugs",
+				"name": "Super Pinchito",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1202,
-				"value": 28861947711
+				"world": "Vunira",
+				"level": 1268,
+				"value": 33819626309
 			},
 			{
 				"rank": 28,
-				"name": "Kathsz San",
+				"name": "Anardiel",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1199,
-				"value": 28626706451
+				"world": "Vunira",
+				"level": 1262,
+				"value": 33344876789
 			},
 			{
 				"rank": 29,
-				"name": "Holyhood",
+				"name": "Alriken",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1191,
-				"value": 28023805994
+				"world": "Vunira",
+				"level": 1245,
+				"value": 32077009684
 			},
 			{
 				"rank": 30,
-				"name": "Takkirus",
+				"name": "Overlord Dagnars",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1187,
-				"value": 27776085301
+				"world": "Vunira",
+				"level": 1230,
+				"value": 30889029149
 			},
 			{
 				"rank": 31,
-				"name": "Bella-Swan",
+				"name": "Lakroz",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1187,
-				"value": 27735979989
+				"world": "Vunira",
+				"level": 1227,
+				"value": 30686263180
 			},
 			{
 				"rank": 32,
-				"name": "Perfect Shooterz",
+				"name": "Mazzika Raa",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1184,
-				"value": 27582834374
+				"world": "Vunira",
+				"level": 1215,
+				"value": 29746531132
 			},
 			{
 				"rank": 33,
-				"name": "Carlitak",
+				"name": "Mega Marjan",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1167,
-				"value": 26403228265
+				"world": "Vunira",
+				"level": 1211,
+				"value": 29479287647
 			},
 			{
 				"rank": 34,
-				"name": "Faptain",
+				"name": "Claq",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1166,
-				"value": 26304497396
+				"world": "Vunira",
+				"level": 1201,
+				"value": 28795654613
 			},
 			{
 				"rank": 35,
-				"name": "Korrex",
+				"name": "Gide Ba",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1158,
-				"value": 25784348230
+				"world": "Vunira",
+				"level": 1197,
+				"value": 28447902133
 			},
 			{
 				"rank": 36,
-				"name": "Cali Gelato",
+				"name": "Violent Wolf",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1152,
-				"value": 25408835032
+				"world": "Vunira",
+				"level": 1197,
+				"value": 28441619290
 			},
 			{
 				"rank": 37,
-				"name": "Holy Smokess",
+				"name": "Tad Dzik",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1147,
-				"value": 25073570044
+				"world": "Vunira",
+				"level": 1182,
+				"value": 27385360552
 			},
 			{
 				"rank": 38,
-				"name": "Josefh Buffon",
+				"name": "Carpo",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1147,
-				"value": 25068985351
+				"world": "Vunira",
+				"level": 1171,
+				"value": 26629937148
 			},
 			{
 				"rank": 39,
-				"name": "Drax Zephyroth",
+				"name": "Venus",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1137,
-				"value": 24420141266
+				"world": "Vunira",
+				"level": 1167,
+				"value": 26370531880
 			},
 			{
 				"rank": 40,
-				"name": "Alch Arctoe",
+				"name": "Krysson",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1135,
-				"value": 24260720219
+				"world": "Vunira",
+				"level": 1162,
+				"value": 26060813050
 			},
 			{
 				"rank": 41,
-				"name": "Arrow Smith",
+				"name": "Nagrix",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1131,
-				"value": 24029865262
+				"world": "Vunira",
+				"level": 1159,
+				"value": 25829894924
 			},
 			{
 				"rank": 42,
-				"name": "Blazeone",
+				"name": "Draakz",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1127,
-				"value": 23768775002
+				"world": "Vunira",
+				"level": 1156,
+				"value": 25626833584
 			},
 			{
 				"rank": 43,
-				"name": "Magnos Altec",
+				"name": "Pumpamm",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1125,
-				"value": 23604934483
+				"world": "Vunira",
+				"level": 1145,
+				"value": 24903140394
 			},
 			{
 				"rank": 44,
-				"name": "Palasd",
+				"name": "Xardasek Haze",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1117,
-				"value": 23151604917
+				"world": "Vunira",
+				"level": 1130,
+				"value": 23969069844
 			},
 			{
 				"rank": 45,
-				"name": "Eduardito siempremuere",
+				"name": "King Baani",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1104,
-				"value": 22355186039
+				"world": "Vunira",
+				"level": 1124,
+				"value": 23560169099
 			},
 			{
 				"rank": 46,
-				"name": "Daniel Reinhardt Lindholm",
+				"name": "Maan Temor",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1103,
-				"value": 22246472467
+				"world": "Vunira",
+				"level": 1122,
+				"value": 23473231302
 			},
 			{
 				"rank": 47,
-				"name": "Sassboy",
+				"name": "Thyleon",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1101,
-				"value": 22131449567
+				"world": "Vunira",
+				"level": 1118,
+				"value": 23225527220
 			},
 			{
 				"rank": 48,
-				"name": "Johanan",
+				"name": "Ten Bez Talentny",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1099,
-				"value": 22034065178
+				"world": "Vunira",
+				"level": 1105,
+				"value": 22383778688
 			},
 			{
 				"rank": 49,
-				"name": "Luanzin Psicopata",
+				"name": "Dariuszek Paluszek",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1095,
-				"value": 21804045671
+				"world": "Vunira",
+				"level": 1100,
+				"value": 22083402356
 			},
 			{
 				"rank": 50,
-				"name": "Chiefin Berg",
+				"name": "Pan Szympans",
 				"vocation": "Royal Paladin",
-				"world": "Lobera",
-				"level": 1094,
-				"value": 21704597321
+				"world": "Vunira",
+				"level": 1098,
+				"value": 21999143779
 			}
 		],
 		"highscore_page": {
@@ -418,7 +418,7 @@
 			"commit": "9fc359dde18041ff43100cb5a394054de844100b"
 		},
 		"tibia_urls": [
-			"https://www.tibia.com/community/?subtopic=highscores&world=Lobera&category=6&profession=3&currentpage=1"
+			"https://www.tibia.com/community/?subtopic=highscores&world=Vunira&category=6&profession=3&currentpage=1"
 		],
 		"status": {
 			"http_code": 200
